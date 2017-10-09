@@ -4,8 +4,11 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/home/rana/.oh-my-zsh
 
-# JAVA
+# vars
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export DOTFILES=$HOME/picorana_dotfiles
+export PATH=$DOTFILES/various:$PATH
+
 
 # VIRTUALENVWRAPPER
 export WORKON_HOME=~/Envs

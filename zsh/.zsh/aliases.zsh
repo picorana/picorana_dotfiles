@@ -12,3 +12,4 @@ alias zshconfig="mate ~/.zshrc"
 alias up="cd ../"
 alias fuck='sudo $(fc -ln -1)'
 alias l='ls -laFh'
+alias connect='nmtui-connect'
