@@ -1,0 +1,36 @@
+{
+  "name": "hyper-config",
+  "version": "0.1.20",
+  "description": "Config wrapper with merge, references, string macros, tagging, yml and json file loading, environment support",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "traverse": "^0.6.6"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.21.5"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zerkalica/hyper-config.git"
+  },
+  "keywords": [
+    "config",
+    "json",
+    "merge",
+    "environment",
+    "tags"
+  ],
+  "author": "Stefan Zerkalica <zerkalica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zerkalica/hyper-config/issues"
+  },
+  "homepage": "https://github.com/zerkalica/hyper-config"
+}

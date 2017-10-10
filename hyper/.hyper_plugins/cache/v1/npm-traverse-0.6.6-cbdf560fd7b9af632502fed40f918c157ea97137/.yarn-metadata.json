@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/traverse/-/traverse-0.6.6.tgz#cbdf560fd7b9af632502fed40f918c157ea97137",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/traverse/-/traverse-0.6.6.tgz",
+    "hash": "cbdf560fd7b9af632502fed40f918c157ea97137",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "cbdf560fd7b9af632502fed40f918c157ea97137"
+}

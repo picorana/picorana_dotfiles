@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-mac-controls/-/hyper-mac-controls-1.0.4.tgz#004059f688116784e554f22ed3f7fe40e7c43fcb",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-mac-controls/-/hyper-mac-controls-1.0.4.tgz",
+    "hash": "004059f688116784e554f22ed3f7fe40e7c43fcb",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "004059f688116784e554f22ed3f7fe40e7c43fcb"
+}

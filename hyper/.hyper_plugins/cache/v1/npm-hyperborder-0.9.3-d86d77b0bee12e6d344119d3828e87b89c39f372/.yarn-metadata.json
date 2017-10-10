@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyperborder/-/hyperborder-0.9.3.tgz#d86d77b0bee12e6d344119d3828e87b89c39f372",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyperborder/-/hyperborder-0.9.3.tgz",
+    "hash": "d86d77b0bee12e6d344119d3828e87b89c39f372",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "d86d77b0bee12e6d344119d3828e87b89c39f372"
+}

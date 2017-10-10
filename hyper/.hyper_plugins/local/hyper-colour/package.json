@@ -1,0 +1,38 @@
+{
+  "name": "hyper-colour",
+  "version": "1.0.1",
+  "description": "Easily set/get `hyperterm` config.",
+  "license": "MIT",
+  "repository": "hemanth/config-hyperterm",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "hyperterm",
+    "config"
+  ],
+  "dependencies": {
+    "camelcase": "^3.0.0",
+    "expand-tilde": "^1.2.2",
+    "meow": "^3.7.0",
+    "ramda": "^0.21.0"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0"
+  }
+}

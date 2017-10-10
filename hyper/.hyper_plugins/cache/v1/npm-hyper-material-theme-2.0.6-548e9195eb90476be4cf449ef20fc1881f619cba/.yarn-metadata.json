@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-material-theme/-/hyper-material-theme-2.0.6.tgz#548e9195eb90476be4cf449ef20fc1881f619cba",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-material-theme/-/hyper-material-theme-2.0.6.tgz",
+    "hash": "548e9195eb90476be4cf449ef20fc1881f619cba",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "548e9195eb90476be4cf449ef20fc1881f619cba"
+}

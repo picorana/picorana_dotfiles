@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-wal/-/hyper-wal-1.0.2.tgz#04e11039bcd10c4375888bf8a0c950b92dfada8b",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-wal/-/hyper-wal-1.0.2.tgz",
+    "hash": "04e11039bcd10c4375888bf8a0c950b92dfada8b",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "04e11039bcd10c4375888bf8a0c950b92dfada8b"
+}

@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-config/-/hyper-config-0.1.20.tgz#a75218360ce1593a314448cdf06ffb54c654e34f",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-config/-/hyper-config-0.1.20.tgz",
+    "hash": "a75218360ce1593a314448cdf06ffb54c654e34f",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "a75218360ce1593a314448cdf06ffb54c654e34f"
+}
