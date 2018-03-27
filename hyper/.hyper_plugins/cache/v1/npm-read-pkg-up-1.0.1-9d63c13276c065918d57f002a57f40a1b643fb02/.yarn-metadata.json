@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-1.0.1.tgz#9d63c13276c065918d57f002a57f40a1b643fb02",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-1.0.1.tgz",
+    "hash": "9d63c13276c065918d57f002a57f40a1b643fb02",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "9d63c13276c065918d57f002a57f40a1b643fb02"
+}

@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/ramda/-/ramda-0.21.0.tgz#a001abedb3ff61077d4ff1d577d44de77e8d0a35",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/ramda/-/ramda-0.21.0.tgz",
+    "hash": "a001abedb3ff61077d4ff1d577d44de77e8d0a35",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "a001abedb3ff61077d4ff1d577d44de77e8d0a35"
+}

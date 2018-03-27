@@ -1,0 +1,37 @@
+Arguments: 
+  /opt/Hyper/hyper /opt/Hyper/resources/bin/yarn-standalone.js install --no-emoji --no-lockfile --cache-folder /home/rana/.hyper_plugins/cache
+
+PATH: 
+  undefined
+
+Yarn version: 
+  0.24.6
+
+Node version: 
+  7.9.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "hyper-plugins",
+    "description": "Auto-generated from `~/.hyper.js`!",
+    "private": true,
+    "version": "0.0.1",
+    "repository": "zeit/hyper",
+    "license": "MIT",
+    "homepage": "https://hyper.is",
+    "dependencies": {
+      "hyper-disable-new-version-notification": "latest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/hyper-disable-new-version-notification/-/hyper-disable-new-version-notification-0.1.1.tgz: ENOENT: no such file or directory, open '/home/rana/.hyper_plugins/cache/v1/npm-hyper-disable-new-version-notification-0.1.1-7f6c7bc6837e347605c3f95c38615290e8250c22/.yarn-tarball.tgz'

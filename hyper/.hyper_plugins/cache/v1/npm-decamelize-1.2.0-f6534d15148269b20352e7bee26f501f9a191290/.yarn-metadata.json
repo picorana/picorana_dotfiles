@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz",
+    "hash": "f6534d15148269b20352e7bee26f501f9a191290",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "f6534d15148269b20352e7bee26f501f9a191290"
+}

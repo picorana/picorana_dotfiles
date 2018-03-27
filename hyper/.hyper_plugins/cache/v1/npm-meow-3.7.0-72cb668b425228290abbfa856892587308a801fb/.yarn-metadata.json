@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/meow/-/meow-3.7.0.tgz#72cb668b425228290abbfa856892587308a801fb",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/meow/-/meow-3.7.0.tgz",
+    "hash": "72cb668b425228290abbfa856892587308a801fb",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "72cb668b425228290abbfa856892587308a801fb"
+}

@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/os-homedir/-/os-homedir-1.0.2.tgz",
+    "hash": "ffbc4988336e0e833de0c168c7ef152121aa7fb3",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "ffbc4988336e0e833de0c168c7ef152121aa7fb3"
+}

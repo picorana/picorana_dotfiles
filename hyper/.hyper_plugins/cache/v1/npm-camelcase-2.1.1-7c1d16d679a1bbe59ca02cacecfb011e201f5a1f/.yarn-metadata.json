@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/camelcase/-/camelcase-2.1.1.tgz#7c1d16d679a1bbe59ca02cacecfb011e201f5a1f",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/camelcase/-/camelcase-2.1.1.tgz",
+    "hash": "7c1d16d679a1bbe59ca02cacecfb011e201f5a1f",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "7c1d16d679a1bbe59ca02cacecfb011e201f5a1f"
+}

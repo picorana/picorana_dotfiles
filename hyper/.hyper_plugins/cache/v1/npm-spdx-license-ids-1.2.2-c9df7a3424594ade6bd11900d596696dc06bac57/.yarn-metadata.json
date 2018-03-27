@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-1.2.2.tgz#c9df7a3424594ade6bd11900d596696dc06bac57",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-1.2.2.tgz",
+    "hash": "c9df7a3424594ade6bd11900d596696dc06bac57",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "c9df7a3424594ade6bd11900d596696dc06bac57"
+}

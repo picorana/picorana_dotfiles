@@ -4,15 +4,31 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/home/rana/.oh-my-zsh
 
-# vars
+# java
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+
+# dotffiles
 export DOTFILES=$HOME/picorana_dotfiles
 export PATH=$DOTFILES/various:$PATH
 
+# go
+export GOPATH=$HOME/gopath
+export PATH=$GOPATH:$PATH
+export PATH=$GOPATH/bin:$PATH
+export PATH=/usr/local/go/bin:$PATH
 
-# VIRTUALENVWRAPPER
+# virtualenvwrapper
 export WORKON_HOME=~/Envs
 source /usr/local/bin/virtualenvwrapper.sh
+
+# treetagger
+export PATH=/home/rana/treetagger/bin:$PATH
+export PATH=/home/rana/treetagger/cmd:$PATH
+export TREETAGGER_HOME='home/rana/treetagger/cmd'
+export TREETAGGER="/home/rana/treetagger/cmd"
+
+# zotero
+export PATH=$HOME/Zotero:$PATH
 
 #case $- in *i*)
 #    [ -z "$TMUX" ] && exec tmux

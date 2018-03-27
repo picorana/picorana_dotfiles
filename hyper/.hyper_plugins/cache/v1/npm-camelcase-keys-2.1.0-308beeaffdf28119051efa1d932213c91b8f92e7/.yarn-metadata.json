@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/camelcase-keys/-/camelcase-keys-2.1.0.tgz#308beeaffdf28119051efa1d932213c91b8f92e7",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/camelcase-keys/-/camelcase-keys-2.1.0.tgz",
+    "hash": "308beeaffdf28119051efa1d932213c91b8f92e7",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "308beeaffdf28119051efa1d932213c91b8f92e7"
+}

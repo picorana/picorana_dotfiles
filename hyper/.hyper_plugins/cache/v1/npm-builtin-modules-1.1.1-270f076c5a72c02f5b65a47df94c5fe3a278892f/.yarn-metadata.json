@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz",
+    "hash": "270f076c5a72c02f5b65a47df94c5fe3a278892f",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "270f076c5a72c02f5b65a47df94c5fe3a278892f"
+}

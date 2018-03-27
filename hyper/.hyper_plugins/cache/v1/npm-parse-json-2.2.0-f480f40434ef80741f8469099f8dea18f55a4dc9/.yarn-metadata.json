@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/parse-json/-/parse-json-2.2.0.tgz#f480f40434ef80741f8469099f8dea18f55a4dc9",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/parse-json/-/parse-json-2.2.0.tgz",
+    "hash": "f480f40434ef80741f8469099f8dea18f55a4dc9",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "f480f40434ef80741f8469099f8dea18f55a4dc9"
+}

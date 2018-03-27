@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/indent-string/-/indent-string-2.1.0.tgz#8e2d48348742121b4a8218b7a137e9a52049dc80",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/indent-string/-/indent-string-2.1.0.tgz",
+    "hash": "8e2d48348742121b4a8218b7a137e9a52049dc80",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "8e2d48348742121b4a8218b7a137e9a52049dc80"
+}

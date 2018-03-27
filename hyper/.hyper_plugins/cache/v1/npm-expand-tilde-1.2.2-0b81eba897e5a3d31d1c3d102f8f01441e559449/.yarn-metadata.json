@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/expand-tilde/-/expand-tilde-1.2.2.tgz#0b81eba897e5a3d31d1c3d102f8f01441e559449",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/expand-tilde/-/expand-tilde-1.2.2.tgz",
+    "hash": "0b81eba897e5a3d31d1c3d102f8f01441e559449",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "0b81eba897e5a3d31d1c3d102f8f01441e559449"
+}

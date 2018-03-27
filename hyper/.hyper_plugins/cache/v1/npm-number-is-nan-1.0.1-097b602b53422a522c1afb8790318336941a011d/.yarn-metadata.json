@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz",
+    "hash": "097b602b53422a522c1afb8790318336941a011d",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "097b602b53422a522c1afb8790318336941a011d"
+}

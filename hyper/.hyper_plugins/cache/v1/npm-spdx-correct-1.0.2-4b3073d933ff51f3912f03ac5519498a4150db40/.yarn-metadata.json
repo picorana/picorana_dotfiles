@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/spdx-correct/-/spdx-correct-1.0.2.tgz#4b3073d933ff51f3912f03ac5519498a4150db40",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/spdx-correct/-/spdx-correct-1.0.2.tgz",
+    "hash": "4b3073d933ff51f3912f03ac5519498a4150db40",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "4b3073d933ff51f3912f03ac5519498a4150db40"
+}

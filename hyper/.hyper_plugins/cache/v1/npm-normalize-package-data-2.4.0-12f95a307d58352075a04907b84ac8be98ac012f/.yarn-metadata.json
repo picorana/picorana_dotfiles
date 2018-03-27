@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.4.0.tgz#12f95a307d58352075a04907b84ac8be98ac012f",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.4.0.tgz",
+    "hash": "12f95a307d58352075a04907b84ac8be98ac012f",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "12f95a307d58352075a04907b84ac8be98ac012f"
+}

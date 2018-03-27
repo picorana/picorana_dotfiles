@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/loud-rejection/-/loud-rejection-1.6.0.tgz#5b46f80147edee578870f086d04821cf998e551f",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/loud-rejection/-/loud-rejection-1.6.0.tgz",
+    "hash": "5b46f80147edee578870f086d04821cf998e551f",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "5b46f80147edee578870f086d04821cf998e551f"
+}

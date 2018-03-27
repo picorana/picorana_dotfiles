@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/redent/-/redent-1.0.0.tgz#cf916ab1fd5f1f16dfb20822dd6ec7f730c2afde",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/redent/-/redent-1.0.0.tgz",
+    "hash": "cf916ab1fd5f1f16dfb20822dd6ec7f730c2afde",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "cf916ab1fd5f1f16dfb20822dd6ec7f730c2afde"
+}

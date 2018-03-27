@@ -13,3 +13,5 @@ alias up="cd ../"
 alias fuck='sudo $(fc -ln -1)'
 alias l='ls -laFh'
 alias connect='nmtui-connect'
+
+alias bfg="java -jar ~/bfg/bfg-1.12.16.jar"

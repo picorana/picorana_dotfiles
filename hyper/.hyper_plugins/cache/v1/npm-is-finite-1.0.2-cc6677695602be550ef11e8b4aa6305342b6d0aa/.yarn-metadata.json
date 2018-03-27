@@ -1,0 +1,12 @@
+{
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/is-finite/-/is-finite-1.0.2.tgz#cc6677695602be550ef11e8b4aa6305342b6d0aa",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/is-finite/-/is-finite-1.0.2.tgz",
+    "hash": "cc6677695602be550ef11e8b4aa6305342b6d0aa",
+    "registry": "npm"
+  },
+  "registry": "npm",
+  "hash": "cc6677695602be550ef11e8b4aa6305342b6d0aa"
+}
