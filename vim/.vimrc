@@ -39,6 +39,16 @@ let g:pymode_options_max_line_length=120
 autocmd FileType python set colorcolumn=120
 " }}}
 
+" javascript {{{
+
+" use prettier for formatting 
+autocmd FileType javascript set formatprg=prettier\ --stdin
+
+" autoformat when saving
+autocmd BufWritePre *.js :normal gggqG
+
+" }}}
+
 " simplyfold {{{
 let g:SimpylFold_fold_docstring = 1
 " }}}
@@ -81,7 +91,12 @@ set writebackup
 
 " list of plugins in use {{{
 " SimplyFold        manages folds nicely
-" vim-commentary    comment multiple lines
+" vim-commentary    comment multiple lines {{{
+" gc5   comment following 5 lines
+" gcc   comment current line
+" gcap  comment out a paragraph
+" :7,17Commentary   comment a range of lines
+" }}}
 " YouCompleteMe     autocompletion plugin
 " python-mode       suite of helpful stuff for python
 " vim-solarized8 

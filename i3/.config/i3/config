@@ -4,9 +4,6 @@ set $alt Mod1
 # Window title font
 font pango:Noto Mono 12
 
-# COMPTON
-exec_always compton -b
-
 # WALLPAPER
 exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.jpg
 
@@ -209,3 +206,5 @@ bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute && pkill -RTM
 bindsym XF86AudioMute        exec amixer -D pulse set Master toggle && pkill -RTMIN+10 i3blocks
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute && pkill -RTMIN+10 i3blocks
 
+# i3 fancy multimonitor lock
+bindsym F10 exec ~/i3lock-fancy-multimonitor/lock --no-text --pixelate
