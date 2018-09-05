@@ -7,8 +7,11 @@ font pango:Noto Mono 12
 # WALLPAPER
 exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.jpg
 
+# POLYBAR
+exec_always --no-startup-id ~/picorana_dotfiles/polybar/launch.sh
+
 # KEYBOARD LAYOUT
-exec setxkbmap -layout us
+exec setxkbmap -layout it
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -29,7 +32,7 @@ font pango:DejaVu Sans Mono 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec hyper
+bindsym $mod+Return exec gnome-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -155,56 +158,38 @@ bindsym $mod+r mode "resize"
 bindsym $alt+Tab exec rofi -show window
 bindsym F12 exec rofi -show run
 
-# SCROT BINDINGS
-bindsym Print exec --no-startup-id scrot -e 'mv $f ~/Pictures/Screenshot.png'
-bindsym --release $mod+Print exec --no-startup-id scrot -s -e 'mv $f ~/Pictures/Screenshot.png'
-
 # COLORS
 set $c_white    #ffffff
 set $c_black    #000000
 set $c_light    #e4e4e4
 set $c_dark     #2f2f2f
 set $c_urgent   #ea9815
+set $c_border	#ffc0cb
+set $c_border_unfocus #cccccc
 
 #                                               border          background      text            indicator
-client.focused                                  $c_light        $c_light        $c_dark         $c_dark
-client.focused_inactive $c_dark                 $c_dark         $c_white        $c_dark
-client.unfocused                                $c_dark         $c_dark         $c_light        $c_dark
-client.urgent                                   $c_urgent $c_urgent $c_white $c_urgent
+client.focused                                  $c_border       $c_border        $c_dark         $c_border
+client.focused_inactive 			$c_dark         $c_border_unfocus $c_border        $c_dark
+client.unfocused                                $c_border       $c_dark         $c_border       $c_dark
+client.urgent                                   $c_border 	$c_urgent 	$c_white 	$c_urgent
 
 # BORDERS
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 5
 smart_borders on
 
 # gaps
 smart_gaps on
-gaps inner 0
-gaps outer 0
+gaps inner 10
+gaps outer 10
 
-# Update i3blocks when Caps Lock is pressed
-bindsym F11 exec pkill -SIGRTMIN+11 i3blocks
+# FUNCTION KEYS
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
-# Start i3bar to display a workspace bar + info from i3blocks
-bar {
-    status_command i3blocks
-        position bottom
-        strip_workspace_numbers yes
-        colors {
-        statusline #e1e3ca
-        separator #1f1f1f
-        background #1f1f1f
-        #name                   #border #bg     #text 
-        focused_workspace       #1f1f1f #1f1f1f #e1e3ca
-        active_workspace        #1f1f1f #1f1f1f #6b6c61
-        inactive_workspace      #1f1f1f #1f1f1f #6b6c61
-        urgent_workspace        #1f1f1f #1f1f1f #AC4142
-        }
-}
+# MOVE WORKSPACE TO ANOTHER OUTPUT
+bindsym $mod+Shift+less move workspace to output left
+bindsym $mod+Shift+greater move workspace to output right
 
-#volume
-bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute && pkill -RTMIN+10 i3blocks
-bindsym XF86AudioMute        exec amixer -D pulse set Master toggle && pkill -RTMIN+10 i3blocks
-bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute && pkill -RTMIN+10 i3blocks
-
-# i3 fancy multimonitor lock
-bindsym F10 exec ~/i3lock-fancy-multimonitor/lock --no-text --pixelate
+# MOUSE WARPING
+mouse_warping none

@@ -8,7 +8,7 @@
 
 alias "cd.."="cd ../"
 
-alias zshconfig="mate ~/.zshrc"
+alias zshconfig="vim ~/.zshrc"
 alias up="cd ../"
 alias fuck='sudo $(fc -ln -1)'
 alias l='ls -laFh'
