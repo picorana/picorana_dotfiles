@@ -9,8 +9,8 @@ export DOTFILES=$HOME/picorana_dotfiles
 export PATH=$DOTFILES/various:$PATH
 
 # virtualenvwrapper
-#export WORKON_HOME=~/Envs
-#source /usr/local/bin/virtualenvwrapper.sh
+export WORKON_HOME=~/python_envs
+source /usr/local/bin/virtualenvwrapper.sh
 
 #case $- in *i*)
 #    [ -z "$TMUX" ] && exec tmux

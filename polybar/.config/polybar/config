@@ -359,6 +359,7 @@ format-full-prefix = "> "
 format-full-prefix-foreground = #666
 
 ramp-capacity-0 = battery
+ramp-capacity-0-foreground = #de0037
 ramp-capacity-1 = battery
 ramp-capacity-2 = battery
 ramp-capacity-foreground = #666

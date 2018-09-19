@@ -5,7 +5,7 @@ filetype off
 execute pathogen#infect()
 execute pathogen#helptags()
 syntax enable
-filetype plugin indent on
+filetype indent on
 
 " search
 set incsearch 	" search incrementally
@@ -21,7 +21,8 @@ set shiftwidth=4
 
 " colorscheme
 set background=dark
-colorscheme solarized
+colorscheme solarized8
+
 
 set showmatch 	" shows matching parenthesis
 set number 	" shows line number
@@ -41,13 +42,8 @@ autocmd FileType python set colorcolumn=120
 
 " javascript {{{
 
-" use prettier for formatting 
-autocmd FileType javascript set formatprg=prettier\ --stdin
 
-" autoformat when saving
-autocmd BufWritePre *.js :normal gggqG
-
-" }}}
+"  }}}
 
 " simplyfold {{{
 let g:SimpylFold_fold_docstring = 1
