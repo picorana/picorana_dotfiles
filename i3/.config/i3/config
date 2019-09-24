@@ -193,3 +193,5 @@ bindsym $mod+Shift+greater move workspace to output right
 
 # MOUSE WARPING
 mouse_warping none
+
+bindsym $mod+F10 exec ~/picorana_dotfiles/i3/i3lock-fancy-multimonitor/lock --no-text --pixelate

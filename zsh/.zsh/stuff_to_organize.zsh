@@ -12,6 +12,10 @@ export PATH=$DOTFILES/various:$PATH
 export WORKON_HOME=~/python_envs
 source /usr/local/bin/virtualenvwrapper.sh
 
+# ruby for personal website
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
+
 #case $- in *i*)
 #    [ -z "$TMUX" ] && exec tmux
 #esac
